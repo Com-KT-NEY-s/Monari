@@ -1,4 +1,4 @@
-package contatos;
+package contatosM;
 
 // Importing java libraries
 // Importando bibliotecas do java
@@ -10,7 +10,7 @@ import javax.swing.table.*;
 
 // Our class name
 // Nome da nossa classe
-public class Contatos {
+public class ContatosM {
 
     // Graphic Interface items
     // Itens da interface gráfica
@@ -80,7 +80,8 @@ public class Contatos {
         toolBar.add(saveButton);
         toolBar.add(cargButton);
 
-        
+        // Action for help button
+        // Ação para o botao de ajuda
         ajudaAction.addActionListener(e -> helpFrame());
 
         // Some Table settings
